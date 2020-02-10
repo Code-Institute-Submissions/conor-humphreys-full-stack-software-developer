@@ -40,21 +40,21 @@ body {
   margin-left: -3px;
 }
 
-.container left {
+.tl_container left {
   padding: 10px 40px;
   position: relative;
   background-color: inherit;
   width: 50%;
 }
 
-.container right {
+.tl_container right {
   padding: 10px 40px;
   position: relative;
   background-color: inherit;
   width: 50%;
 }
 
-.container::after {
+.tl_container::after {
   content: '';
   position: absolute;
   width: 25px;
