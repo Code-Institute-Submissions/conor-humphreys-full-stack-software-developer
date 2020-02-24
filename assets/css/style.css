@@ -27,7 +27,7 @@ html {
 @media screen and (max-width: 600px) {
     .jumbotron {
         padding-top: 70px;
-        padding-left: 25px;
+        padding-left: 50px;
     }
 }
 
@@ -67,6 +67,11 @@ article.container.about-container {
     background-color: #002366;
 }
 
+@media screen and (max-width: 600px) {
+    article.container.about-container {
+        padding-left: 25px;
+    }
+}
 
 /*--------------------------------------------Portfolio*/
 
