@@ -28,22 +28,22 @@
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="nav navbar-nav mr-auto">
                         <li class="active nav-item">
-                            <a class="nav-link" href="/home">Home</a>
+                            <a class="nav-link" href="#home">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/about">About</a>
+                            <a class="nav-link" href="#about">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/portfolio">Portfolio</a>
+                            <a class="nav-link" href="#portfolio">Portfolio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/work/education">Work/Education</a>
+                            <a class="nav-link" href="#work">Work/Education</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/skills">Skills</a>
+                            <a class="nav-link" href="#skills">Skills</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/contact">Contact</a>
+                            <a class="nav-link" href="#contact">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -53,7 +53,7 @@
 
     <!--********TOP JUMBOTRON********-->
 
-    <header class="jumbotron bg" id="landing-view">
+    <header id="home" class="jumbotron bg" id="landing-view">
             <div class="container top">
                 <h1 class='name'>Conor Humphreys</h1>
                 <p class='title'>Full-Stack Software Developer</p>
@@ -62,13 +62,13 @@
 
     <!--********ABOUT********-->
 
-    <section class="about-section">
+    <section id="about" class="about-section">
         <article class="container about-container">
                 <section class="about">
                     <div class="row">
-                        <div class="col-12 my-5">
+                        <header class="col-12 my-5">
                             <h2 class="text-uppercase">About</h2>
-                        </div>
+                        </header>
                         <div class="media-body">
                             <p class="col-md-12">
                                 I am a business studies graduate from the University of Limerick. I subsequently worked in financial services
@@ -88,13 +88,13 @@
 
     <!--********PORTFOLIO********-->
 
-    <section class="portfolio-section portfolio-bg">
+    <section id="portfolio" class="portfolio-section portfolio-bg">
         <div class="container portfolio-container">
             <section class="portfolio">
                 <div class="row">
-                    <div class="col-12 my-5">
+                    <header class="col-12 my-5">
                         <h2 class="text-uppercase">Portfolio</h2>
-                    </div>
+                    </header>
                     <div class="col-12 col-md-6 col-lg-4">
                         <div class="media">
                             <div class="d-none d-sm-block">
@@ -121,7 +121,7 @@
                     </div>
                     <div class="col-12 d-md-none d-sm-none d-lg-block col-lg-4">
                         <div class="media">
-                            <div class="d-none">
+                            <div class="d-none d-sm-block">
                                 <img src="assets/images/flappy-bird.png" class="rounded-circle mr-3" height="50" width="50">
                             </div>
                             <div class="media-body-fb">
@@ -138,13 +138,13 @@
 
     <!--********Work/Education********-->
 
-    <section class="work-section">
-        <div class="container work/education-container">
-            <section class="work/education">
+    <section id="work" class="work-section">
+        <div class="container work-container">
+            <section class="work">
                 <div class="row">
-                    <div class="col-12 my-5">
-                        <h2 class="text-uppercase">Work/Education</h2>
-                    </div>
+                    <header class="col-12 my-5">
+                        <h2 class="text-uppercase work">Work/Education</h2>
+                    </header>
                 </div>
                 <div class="timeline">
                     <div class="tl_container left">
@@ -190,13 +190,13 @@
 
 <!--********Skills********-->
 
-    <section class="skills-section skills-bg">
+    <section id="skills" class="skills-section skills-bg">
         <div class="container skills-container">
             <section class="skills">
                 <div class="row">
-                    <div class="col-12 my-5">
+                    <header class="col-12 my-5">
                         <h2 class="text-uppercase skills">Skills</h2>
-                    </div>
+                    </header>
                 </div>
                 <div class="row progress-section">
                     <div class="col">
@@ -238,26 +238,22 @@
 
  <!--********Contact********-->
 
-    <section class="contact-section">
-        <div class="container">
-            <div style="text-align:left">
+    <section id="contact" class="contact-section">
+        <div>
+            <header style="text-align:left">
                 <h2 class="text-uppercase">Contact Me</h2>
-            </div>
-            <div class="row">
-                <div class="column">
-                    <form>
-                        <label for="fname">First Name</label>
-                        <input type="text" id="fname" name="firstname" placeholder="Your name..">
-                        <label for="lname">Last Name</label>
-                        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-                        <label for="email">Email</label>
-                        <input type="text" id="email" name="email" placeholder="Your email..">
-                        <label for="subject">Subject</label>
-                        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
-                        <input type="submit" value="Submit">
-                    </form>   
-                </div>
-            </div>
+            </header>
+            <form>
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email" placeholder="Your email..">
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+                <input type="submit" value="Submit">
+            </form>
         </div>
     </section>
 
@@ -274,10 +270,10 @@
             <div class="col-md-4">
                 <p class="text-light copy">Copyright <i class="far fa-copyright"></i> 2020 Bootstrap4</p>
             </div>
-            <ul class="contact">
-                <li><i class="fas fa-phone"></i>  Phone: +353851019493</li>
-                <li><i class="fas fa-envelope"></i>  Email: conorhumphreys1@gmail.com</li>
-            </ul>
+            <div class="col-md-4 contact">
+                <p><i class="fas fa-phone"></i>  Phone: +353851019493</p>
+                <p><i class="fas fa-envelope"></i>  Email: conorhumphreys1@gmail.com</p>
+            </div>
         </div>
     </footer>
 

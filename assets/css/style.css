@@ -21,6 +21,18 @@ html {
 
 .jumbotron {
 	background-color: transparent;
+    padding-top: 100px;
+}
+
+@media screen and (max-width: 600px) {
+    .jumbotron {
+        padding-top: 70px;
+        padding-left: 25px;
+    }
+}
+
+.jumbotron.bg {
+    margin-bottom: 0;
 }
 
 div.container.top {
@@ -36,6 +48,12 @@ header#landing-view.jumbotron.bg {
 
 .about-section {
 	background-color: #002366;
+}
+
+@media screen and (max-width: 600px) {
+    .about-section . {
+        padding-left: 25px;
+    }
 }
 
 .about {
@@ -82,6 +100,19 @@ div.container.portfolio-container {
 }
 
 /*--------------------------------------------Work/Education Timeline*/
+
+.work {
+    background-color: #002366;
+}
+
+.work-section {
+    background-color: #002366;
+    padding-bottom: 100px;
+}
+
+h2.text-uppercase.work {
+	color: #fff;
+}
 
 body {
 	background-color: #474e5d;
@@ -181,12 +212,12 @@ body {
 	.timeline::after {
 		left: 31px;
 	}
-	.container {
+	.tl_container {
 		width: 100%;
 		padding-left: 70px;
-		padding-right: 25px;
+        padding-right: 25px;
 	}
-	.container::before {
+	.tl_container::before {
 		left: 60px;
 		border: medium solid white;
 		border-width: 10px 10px 10px 0;
@@ -209,6 +240,11 @@ body {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+}
+
+.skills-section {
+    margin: 0 auto;
+    padding-bottom: 100px;
 }
 
 div.container.skills-container {
@@ -238,13 +274,20 @@ h2.text-uppercase.skills {
 	margin: 40px 20px;
 }
 
-
 /*--------------------------------------------Contact*/
 
 .contact-section {
 	background-color: #fff;
-	margin-top: 100px;
-	margin-bottom: 100px;
+    margin: 0 auto;
+    width: 50%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+@media screen and (max-width: 600px) {
+    .contact-section {
+        width: 90%;
+    }
 }
 
 * {
@@ -274,34 +317,6 @@ input[type=submit]:hover {
 	background-color: #45a049;
 }
 
-.container {
-	border-radius: 5px;
-	background-color: #f2f2f2;
-	padding: 10px;
-}
-
-.column {
-	float: left;
-	width: 50%;
-	margin-top: 6px;
-	padding: 20px;
-}
-
-.row:after {
-	content: "";
-	display: table;
-	clear: both;
-}
-
-@media screen and (max-width: 600px) {
-	.column,
-	input[type=submit] {
-		width: 100%;
-		margin-top: 0;
-	}
-}
-
-
 /*--------------------------------------------Footer*/
 
 footer {
@@ -318,10 +333,9 @@ footer {
 
 .contact {
 	color: #fff;
-	text-align: justify;
+	text-align: center;
 	font-family: "Exo", sans-serif;
 	padding-top: 20px;
-    float: right;
 }
 
 .smed i {
@@ -333,11 +347,4 @@ footer {
 
 .smed i:hover {
 	color: #ffa500;
-}
-
-@media screen and (max-width: 600px) {
-	.contact {
-		width: 100%;
-		margin-top: 0;
-	}
 }

@@ -1,65 +1,118 @@
-Conor Humphreys - Full Stack Software Developer
+# Conor Humphreys - Full Stack Software Developer
 
-Essentially, this part is your sales pitch.
+As part of my milestone project I decided to create a personal website as part of building a personal brand.
 
-UX
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+The main goal of the project is to present myself in the best light possible to future potential employers.
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
+The website contains a short section about me, a portfolio of completed projects to demonstrate competencies, a timeline of my work and educational history, progress bars to display my abilities in different languages, a contact section and a footer including social links.
+ 
+## UX
 
-As a user type, I want to perform an action, so that I can achieve a goal.
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+This website is mainly for recruiters either in agencies or in-house recruiters at a variety of different companies.
 
-Features
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+The site is mapped out as one page, allowing the user to easily scroll through each section one at a time. There is a blend of colours and background images to make the user experience appealing.
 
-Existing Features
-Feature 1 - allows users X to achieve Y, by having them fill out Z
-...
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
+The site allows the user to easily build an impression of myself through information about my work/education, my skills and background and also my portfolio of projects. The contact section and social links also give the user the opportunity ease of access to reach me if more information is required or the page has peaked their interest in me as a potential hiree.
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+For example, if the user wanted to gain a better insight into my professional career, the links to my social platforms in the footer, allows this to be done easily. 
 
-Features Left to Implement
-Another feature idea
-Technologies Used
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+I employed the same wireframe as the one used in Haley Schafer's sample project.
 
-JQuery
-The project uses JQuery to simplify DOM manipulation.
-Testing
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+## Features
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+Navbar - allows users to quickly navigate through the page. A collapseable navbar is used for mobile devices.
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+Home - home section uses a background image and jumbotron to give an appealing user experience.
 
-Contact form:
-Go to the "Contact Us" page
-Try to submit the empty form and verify that an error message about the required fields appears
-Try to submit the form with an invalid email address and verify that a relevant error message appears
-Try to submit the form with all inputs valid and verify that a success message appears.
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+About - the about section provides a brief synopsis about myself.
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+Portfolio - my porfolio sections gives a brief description of each project and also shows the technologies used in each project.
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+Work/education - the work/education section employs a bootstrap timeline to show the history of my work and education.
 
-Deployment
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+Skills - the skills section demonstrates bootstrap progress bars to highlight my proficiency in a number of different languages.
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
+Contact - the contact section allows the user to leave a direct message to me.
 
-Different values for environment variables (Heroku Config Vars)?
-Different configuration files?
-Separate git branch?
-In addition, if it is not obvious, you should also describe how to run your code locally.
+Footer - the footer contains social links and more contact information.
+ 
+### Existing Features
 
-Credits
-Content
-The text for section Y was copied from the Wikipedia article Z
-Media
-The photos used in this site were obtained from ...
-Acknowledgements
-I received inspiration for this project from X
+Navbar - allows users to quickly navigate through the page. A collapseable navbar is used for mobile devices.
+
+Home - home section uses a background image and jumbotron to give an appealing user experience.
+
+About - the about section provides a brief synopsis about myself.
+
+Portfolio - my porfolio sections gives a brief description of each project and also shows the technologies used in each project.
+
+Work/education - the work/education section employs a bootstrap timeline to show the history of my work and education.
+
+Skills - the skills section demonstrates bootstrap progress bars to highlight my proficiency in a number of different languages.
+
+Contact - the contact section allows the user to leave a direct message to me.
+
+Footer - the footer contains social links and more contact information.
+
+### Features Left to Implement
+ Feature 1: In future I would like to provide a version of my downloadable CV.
+
+ Feature 2: I would also like to include functioning links to my repositories in my portfolio and links to my social platforms.
+
+## Technologies Used
+
+- [JQuery](https://jquery.com)
+    - The project uses **JQuery** to simplify DOM manipulation.
+-  [HTML5]
+    - The project uses HTML5 to structure and display information in the browser.
+-  [CSS3]
+    - The project uses CSS3 in order to style the HTML5 elements.
+-  [Bootstrap 4](https://getbootstrap.com/)
+    - The project uses Bootstrap 4 to build responsive features.
+
+
+## Testing
+
+In order to test my project I mainly used Google developer tools, I checked the project worked in different browsers and I also ensured the project worked on different devices to make sure that it's responsive.
+
+I also used a code validator to ensure my code was of a sufficient standard.
+
+Desktop: The view on desktop takes up most of the screen, it's one page which allows the user to scroll down.
+
+Tablet: The only difference in tablet is that one of the portfolio projects is hidden.
+
+Mobile: In mobile the Navbar is collapsed, the footer information is stacked, one of the portfolio projects is hidden and some of the text is moved in order to make it legible with the new positioning of it in the background image.
+
+## Deployment
+
+I deployed my project using github pages.
+
+The process was as follows:
+    1. Click into settings in Github account.
+    2. Scroll to the Source section within the Github Pages section.
+    3. From the dropdown menu, select master branch and then click Save.
+
+
+## Credits
+
+### Content
+- The bootstrap timeline was copied from W3Schools, (https://www.w3schools.com/howto/howto_css_timeline.asp)
+- The contact section was copied from W3Schools, (https://www.w3schools.com/howto/howto_css_contact_section.asp)
+- The progress bar was copied from the previous 'Rosie Odenkirk Resume' as part of the User-Centric Front-End Module in the Code Institute course, (https://courses.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/104d9207aa2a4bcbbdce3e321ff7f263/?activate_block_id=block-v1%3Acodeinstitute%2BFE%2B2017_T3%2Btype%40sequential%2Bblock%40104d9207aa2a4bcbbdce3e321ff7f263)
+- The collapseable navbar was copied from the 'Whiskey Drop' project as part of the User-Centric Front-End Module in the Code Institute course, (https://courses.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/a4b90d17e5c94220a0f83f00ce7fa606/7c0e25d1061e47cdae9c492d623bfc65/?activate_block_id=block-v1%3Acodeinstitute%2BFE%2B2017_T3%2Btype%40sequential%2Bblock%407c0e25d1061e47cdae9c492d623bfc65)
+- Other components such as the navbar in were obtained from Bootstrap, (https://getbootstrap.com/)
+- Icons in the footer were used from Font Awesome, (https://fontawesome.com/)
+- Stack Overflow and Tutor Support were used to get help with issues I was struggling with.
+    - These are links to questions I posed on Stack Overflow: 
+    (https://stackoverflow.com/questions/60343701/blending-jumbotron-into-background-image/60343854?noredirect=1#comment106755313_60343854)
+    (https://stackoverflow.com/questions/60323668/social-icons-not-floating-to-the-right-hand-corner-of-footer/60324257#60324257)
+    (https://stackoverflow.com/questions/60155333/why-is-my-bootstrap-timeline-not-styling-correctly/60155757#60155757)
+    (https://stackoverflow.com/questions/60061009/html-bootstrap-for-displaying-images-side-by-side/60061401#60061401)
+
+### Media
+- The photos used in this site were obtained from Google Images, (https://www.google.com/search?q=background+images+for+websites&rlz=1C5CHFA_enIE862IE862&sxsrf=ALeKk03oIGg5wWJwM_MlWcUddgxk0sWAfw:1582586493051&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiMkfqNquvnAhVFZcAKHSypD18Q_AUoAXoECBAQAw&biw=1439&bih=701)
+
+### Acknowledgements
+
+- I received inspiration for this project from Haley Schafer's sample project.
 
