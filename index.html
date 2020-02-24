@@ -22,26 +22,31 @@
                 <div class="navbar-header">
                     <a class="navbar-brand" href="#">Conor Humphreys</a>
                 </div>
-                <ul class="nav navbar-nav mr-auto">
-                    <li class="active nav-item">
-                        <a class="nav-link" href="#home">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#portfolio">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#work/education">Work/Education</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#skills">Skills</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
-                    </li>
-                </ul>
+                <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span></button>
+
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="nav navbar-nav mr-auto">
+                        <li class="active nav-item">
+                            <a class="nav-link" href="/home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/work/education">Work/Education</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/skills">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </nav>
     </header>
@@ -64,17 +69,18 @@
                         <div class="col-12 my-5">
                             <h2 class="text-uppercase">About</h2>
                         </div>
-                    <div class="media-body">
-                        <p class="col-md-12">
-                            I am a business studies graduate from the University of Limerick. I subsequently worked in financial services
-                            for over two and a half years, gaining experience in the insurance and fund management industries. During this time I developed
-                            excellent interpersonal skills while simultaneously honing my analytical and problem-solving abilities.
-                        </p>
-                        <p class="col-md-12">
-                            In the summer of 2018 I decided to look for a new challenge. I enrolled in Code Institute's Full Stack Software Development course.
-                            Throughout the course I developed core competencies in HTML, CSS, JavaScript and Python along with a number of associated frameworks
-                            from Bootstrap to Django.
-                        </p>
+                        <div class="media-body">
+                            <p class="col-md-12">
+                                I am a business studies graduate from the University of Limerick. I subsequently worked in financial services
+                                for over two and a half years, gaining experience in the insurance and fund management industries. During this time I developed
+                                excellent interpersonal skills while simultaneously honing my analytical and problem-solving abilities.
+                            </p>
+                            <p class="col-md-12">
+                                In the summer of 2018 I decided to look for a new challenge. I enrolled in Code Institute's Full Stack Software Development course.
+                                Throughout the course I developed core competencies in HTML, CSS, JavaScript and Python along with a number of associated frameworks
+                                from Bootstrap to Django.
+                            </p>
+                        </div>
                     </div>
                 </section>
         </article>
@@ -185,7 +191,7 @@
 <!--********Skills********-->
 
     <section class="skills-section skills-bg">
-        <div class="skills">
+        <div class="container skills-container">
             <section class="skills">
                 <div class="row">
                     <div class="col-12 my-5">

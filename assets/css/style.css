@@ -35,9 +35,12 @@ header#landing-view.jumbotron.bg {
 /*--------------------------------------------About*/
 
 .about-section {
-	height: 100%;
-	width: 100%;
 	background-color: #002366;
+    height: 50%;
+}
+
+section.about-section {
+    height: 50%;
 }
 
 .about {
@@ -197,15 +200,13 @@ body {
 
 .skills-bg {
 	background-image: url("../images/laptop.jpg");
-	height: 100%;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 
-h2.text-uppercase.skills {
-	color: #fff;
-	padding-left: 35px;
+div.container.skills-container {
+    background-color: transparent;
 }
 
 .progress {
@@ -231,8 +232,6 @@ h2.text-uppercase.skills {
 /*--------------------------------------------Contact*/
 
 .contact-section {
-	height: 100%;
-	width: 100%;
 	background-color: #fff;
 	margin-top: 100px;
 	margin-bottom: 100px;
