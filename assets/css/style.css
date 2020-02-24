@@ -36,11 +36,6 @@ header#landing-view.jumbotron.bg {
 
 .about-section {
 	background-color: #002366;
-    height: 50%;
-}
-
-section.about-section {
-    height: 50%;
 }
 
 .about {
@@ -50,6 +45,8 @@ section.about-section {
 
 article.container.about-container {
 	padding: inherit;
+    padding-bottom: 50px;
+    background-color: #002366;
 }
 
 
@@ -73,6 +70,16 @@ div.container.portfolio-container {
 	background-color: transparent;
 }
 
+@media screen and (max-width: 600px) {
+  .media-body-fb {
+    visibility: hidden;
+    clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
+  }
+}
 
 /*--------------------------------------------Work/Education Timeline*/
 
@@ -194,12 +201,11 @@ body {
 	}
 }
 
-
 /*--------------------------------------------Skills*/
 
 
 .skills-bg {
-	background-image: url("../images/laptop.jpg");
+	background-image: url("../images/keyboard.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -207,6 +213,10 @@ body {
 
 div.container.skills-container {
     background-color: transparent;
+}
+
+h2.text-uppercase.skills {
+	color: #fff;
 }
 
 .progress {
@@ -311,6 +321,7 @@ footer {
 	text-align: justify;
 	font-family: "Exo", sans-serif;
 	padding-top: 20px;
+    float: right;
 }
 
 .smed i {
@@ -322,4 +333,11 @@ footer {
 
 .smed i:hover {
 	color: #ffa500;
+}
+
+@media screen and (max-width: 600px) {
+	.contact {
+		width: 100%;
+		margin-top: 0;
+	}
 }
