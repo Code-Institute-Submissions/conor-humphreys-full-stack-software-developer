@@ -26,8 +26,8 @@ html {
 
 @media screen and (max-width: 600px) {
     .jumbotron {
-        padding-top: 70px;
-        padding-left: 50px;
+        padding-top: 75px;
+        padding-left: 30px;
     }
 }
 
@@ -222,6 +222,15 @@ body {
 		padding-left: 70px;
         padding-right: 25px;
 	}
+
+    .tl_container.left {
+        width: 100%;
+    }
+
+    .tl_container.right {
+        width: 100%;
+    }
+
 	.tl_container::before {
 		left: 60px;
 		border: medium solid white;
